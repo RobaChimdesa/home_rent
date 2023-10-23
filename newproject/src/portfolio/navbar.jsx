@@ -9,6 +9,7 @@ function Navbar() {
     <div className="me">
     <h2>HI! I AM ROBA</h2>
      <h2>WEB </h2><h2 style={{color:'red'}}>DEVELOPER</h2>
+     <h3>you can see my projects</h3>
     </div>
 
     </div>
