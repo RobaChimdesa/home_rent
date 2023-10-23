@@ -10,6 +10,7 @@ function Navbar() {
     <h2>HI! I AM ROBA</h2>
      <h2>WEB </h2><h2 style={{color:'red'}}>DEVELOPER</h2>
      <h3>you can see my projects</h3>
+     <h4>If you have a queston</h4>
     </div>
 
     </div>
