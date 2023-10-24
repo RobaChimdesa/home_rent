@@ -1,4 +1,4 @@
-import Navbar from "./portfolio/navbar";
+import Navbar from './components/sidebar';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 
 
