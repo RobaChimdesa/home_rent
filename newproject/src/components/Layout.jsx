@@ -6,10 +6,11 @@ function Layout({children}) {
   return (
     <div>
       <Header />
-      <div className="content">{children}</div>
+      <div className="content font-mono">{children}</div>
       <Footer />
     </div>
   );
+ 
 }
 
 export default Layout;
