@@ -4,9 +4,11 @@ import Footer from "./Footer";
 
 function Layout({children}) {
   return (
-    <div>
+    <div className="bg-indigo-950">
       <Header />
-      <div className="content font-mono">{children}</div>
+      <div className="content font-mono">{children}
+      
+      </div>
       <Footer />
     </div>
   );

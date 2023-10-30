@@ -1,16 +1,22 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
+import InfoIcon from '@mui/icons-material/Info';
+import HomeIcon from '@mui/icons-material/Home';
+import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
+import SchoolIcon from '@mui/icons-material/School';
+import ApprovalIcon from '@mui/icons-material/Approval';
+import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 
 function Header() {
   const [showMenu, setShowMenu] = useState("md:hidden");
   const menu = [
-    { title: "Home", path: "/" },
-    { title: "About", path: "/about" },
-    { title: "Contact", path: "/contact" },
-    { title: "Education", path: "/education" },
-    { title: "Skill", path: "/skill" },
-    { title: "Projects", path: "/projects" },
+    { title: "Home", path: "/", icon:<HomeIcon/> },
+    { title: "About", path: "/about", icon:<InfoIcon/>},
+    { title: "Contact", path: "/contact", icon:<LocalPostOfficeIcon/> },
+    { title: "Education", path: "/education", icon:<SchoolIcon/> },
+    { title: "Skill", path: "/skill",icon:<PsychologyAltIcon/> },
+    { title: "Projects", path: "/projects",icon:<ApprovalIcon/> },
   ];
 
   const pathname = window.location.pathname;
@@ -64,7 +70,7 @@ function Header() {
                   "bg-white text-black rounded-md px-5 p-1"
                 } `}
               >
-                <Link to={items.path}> {items.title}</Link>
+                {items.icon}<Link to={items.path}> {items.title}</Link>
               </li>
             );
           })}

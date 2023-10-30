@@ -6,27 +6,30 @@ function Home() {
   return (
     <Layout>
       <div>
-        <div className="  h-screen bg-indigo-950">
+        <div className="  h-screen ">
 
           <div className=" grid  md:grid-cols-1 grid-cols-2 mx-10 z-10
           items-center">
 
-          <div className="items-center h-1/2  font-bold text-white md:px-5">
-            <h1 className=" font-sans text-7xl md:text-4xl  ">Hi I am Student</h1>
-            <h1><b className="text-red-500 text-8xl">@ astu</b></h1>
-            <h1>
+          <div className="items-center h-1/2 font-serif font-bold text-white md:px-5">
+            <h1 className="font-serif 	 text-7xl md:text-4xl text-yellow-300">Hi,</h1>
+            <h1 className=" font-serif text-6xl md:text-4xl text-lime-300  "><b>I'm</b>{' '} Roba Chimdesa</h1>
+             <h1 className=" font-serif text-6xl md:text-4xl text-red-500">
+                
+              <span >{' '}
               <Typewriter
-               options=
-               {{
-                autoStart:true,
-                loop:true,
-                delay:50,
-                Strings:['hello i am']
-
-               }}
-
+              words={['Computer Engineer','Web Developer','Designer']}
+              loop={10}
+              cursor
+              cursorStyle='_'
+              typeSpeed={60}
+              deleteSpeed={50}
+              delaySpeed={1000}
               />
+
+              </span>
             </h1>
+           
           </div>
 
           <div className="h-1/2">
@@ -37,6 +40,7 @@ function Home() {
                 loop
                 autoplay
               ></lottie-player>
+              
            </div>
           </div>
 
