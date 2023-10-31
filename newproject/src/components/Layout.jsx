@@ -6,8 +6,7 @@ function Layout({children}) {
   return (
     <div className="bg-indigo-950">
       <Header />
-      <div className="content font-mono">{children}
-      
+      <div className="content font-mono ">{children}
       </div>
       <Footer />
     </div>

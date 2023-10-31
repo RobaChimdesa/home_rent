@@ -25,7 +25,7 @@ function Header() {
     <div>
      
       <div
-        className={`flex justify-between bg-black text-white items-center
+        className={`flex justify-between bg-black text-white items-center 
       shadow-lg p-2 ${showMenu !== "md:hidden" && "md:flex-col "}`}
       >
         <div className="flex justify-between w-full">

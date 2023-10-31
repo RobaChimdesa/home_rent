@@ -44,6 +44,18 @@ function Contact() {
                   <h4>+251983626772</h4>
                 </div>
               </div>
+
+              <div className=" bg-white ">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.2820171644894!2d39.29187997425917!3d8.568858391475242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b1fe4c294e6cb%3A0x6b86d6a89f24215c!2sAdama%20Science%20And%20Technology%20University%20%2CASTU%2C%20Adama%20%2CEthiopia!5e0!3m2!1sen!2set!4v1698748484343!5m2!1sen!2set"
+                  width="480"
+                  height="280"
+                  style={{border:0}}
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
           </div>
 
